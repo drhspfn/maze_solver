@@ -64,7 +64,7 @@ You have two options for installing and running Maze Game:
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/drhspfn/maze-solver.git
+    git clone https://github.com/drhspfn/maze_solver.git
     cd maze-solver
     ```
 
