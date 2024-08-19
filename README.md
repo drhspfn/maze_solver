@@ -81,7 +81,7 @@ You have two options for installing and running Maze Game:
 ### Option 2: Download the Executable
 
 1. **Download the Executable:**
-Go to the [Releases page](https://google.com) on GitHub and download the latest version of the executable file.
+Go to the [Releases page](https://github.com/drhspfn/maze_solver/releases) on GitHub and download the latest version of the executable file.
 
 2. **Run the Executable:**
 Double-click the downloaded `.exe` file to start the game.
