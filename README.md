@@ -29,6 +29,34 @@ Maze Game is a fun and interactive game featuring two modes: Auto and Player. In
     -   The maze is solved automatically; no player input is required.
     -   `R` key: Regenerate the maze and start from a new level.
 
+## Maze Generation Types
+
+This project provides multiple algorithms for generating mazes, each offering a unique approach to maze construction:
+
+1. **Random Maze Generation** (`create_maze_random`):
+   - Generates a maze using a simple randomized algorithm where each cell has a 30% chance of being a wall. The result is a maze with a randomized pattern of walls and paths.
+
+2. **Spiral Maze Generation** (`create_maze_spiral`):
+   - Creates a spiral-patterned maze. The algorithm works best with square grids and forms a maze that spirals outward from the center, with random variations in the spiral’s direction.
+
+3. **Prim's Algorithm** (`create_maze_prims`):
+   - Utilizes Prim's algorithm to generate a maze, ensuring a single path exists from the top-left to the bottom-right corner. This method produces a maze with fewer dead ends and a more predictable layout.
+
+4. **Recursive Backtracking** (`create_maze_recursive`):
+   - Implements the Recursive Backtracking algorithm, which carves passages by exploring and backtracking. This method is known for creating mazes with a tree-like structure and intricate, winding paths.
+
+5. **Rooms and Corridors** (`create_maze_rooms_and_corridors`):
+   - Constructs a maze by first creating rooms at random positions, then connecting them with corridors. This method is ideal for mazes that need distinct areas connected by pathways.
+
+6. **Growing Tree Algorithm** (`create_maze_growing_tree`):
+   - Generates a maze by iteratively growing a tree structure, where cells are added randomly and connected to the existing maze. The algorithm can produce diverse patterns by varying the branching factor.
+
+7. **Fractal Maze Generation** (`create_maze_fractal`):
+   - Uses a fractal division algorithm to create a maze by recursively dividing the space and adding walls. This approach results in a maze with a highly structured, grid-like appearance.
+
+Each algorithm can generate a maze of any specified size, providing flexibility in maze design for different use cases.
+
+
 ## Installation
 You have two options for installing and running Maze Game:
 
